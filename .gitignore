@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and runtime state
+data/database.sqlite
+data/database.sqlite-shm
+data/database.sqlite-wal
+data/incident_report.csv
+data/test_tmp/
+data/uploads/*
+!data/uploads/.gitkeep
+data/recordings/*
+!data/recordings/.gitkeep
+
+# Snapshots (captured at runtime)
+data/snapshots/*.jpg
+!data/snapshots/.gitkeep
+
+# Model weights
+*.pt
+models/*.pt
+!models/.gitkeep
+
+# Environments
+venv/
+.venv/
+env/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

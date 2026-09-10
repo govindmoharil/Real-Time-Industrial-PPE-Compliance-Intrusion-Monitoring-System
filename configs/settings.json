@@ -1,0 +1,28 @@
+{
+  "confidence_threshold": 0.30,
+  "iou_threshold": 0.45,
+  "debounce_seconds": 1.0,
+  "debounce_frames": 5,
+  "alert_cooldown_seconds": 5.0,
+  "mandatory_ppe": [
+    "Hard_hat",
+    "Vest"
+  ],
+  "optional_ppe": [
+    "Boots",
+    "Glove",
+    "Glass",
+    "Mask"
+  ],
+  "camera_id": "CAM-01-FACTORY-FLOOR",
+  "enable_audio_alarm": true,
+  "save_snapshots": true,
+  "display": {
+    "show_boxes": true,
+    "show_zones": true,
+    "show_trails": true,
+    "show_hud": true,
+    "show_ppe_boxes": false
+  }
+}
+

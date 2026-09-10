@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "zones": [
+    {
+      "id": "zone_danger_robotics",
+      "name": "Zone 1: Automated Robotics Cell (Exclusion)",
+      "zone_type": "DANGER_EXCLUSION",
+      "points": [
+        [0.05, 0.45],
+        [0.42, 0.45],
+        [0.42, 0.95],
+        [0.05, 0.95]
+      ],
+      "color_rgb": [235, 45, 45],
+      "required_ppe": ["Hard_hat", "Vest"],
+      "max_dwell_seconds": 0.0,
+      "description": "Robotic welding arms operating envelope. Strictly forbidden for human entry during active shift."
+    },
+    {
+      "id": "zone_ppe_assembly",
+      "name": "Zone 2: Heavy Assembly & Staging",
+      "zone_type": "PPE_MANDATORY",
+      "points": [
+        [0.55, 0.40],
+        [0.95, 0.40],
+        [0.95, 0.92],
+        [0.55, 0.92]
+      ],
+      "color_rgb": [245, 160, 20],
+      "required_ppe": ["Hard_hat", "Vest"],
+      "max_dwell_seconds": 3600.0,
+      "description": "Component fabrication area. Mandatory hard hat and high-visibility safety vest."
+    },
+    {
+      "id": "zone_safe_walkway",
+      "name": "Zone 3: Central Transit Corridor",
+      "zone_type": "SAFE_TRANSIT",
+      "points": [
+        [0.43, 0.45],
+        [0.54, 0.45],
+        [0.54, 0.95],
+        [0.43, 0.95]
+      ],
+      "color_rgb": [40, 180, 240],
+      "required_ppe": ["Hard_hat"],
+      "max_dwell_seconds": 45.0,
+      "description": "Pedestrian transit lane. Monitored for corridor obstruction and loitering."
+    }
+  ]
+}
+
